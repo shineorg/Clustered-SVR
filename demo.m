@@ -1,4 +1,4 @@
-% A piecewise linear regression model using k-means clustering and SVR
+% A piecewise linear regression model using k-means clustering and primal SVR
 % Contact: Frank Puk pukkinming@gmail.com
 %
 % Note: A k-means clustering is run before applying SVR in each local
