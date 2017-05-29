@@ -11,5 +11,5 @@ for i = idx
     Rtrain = [Rtrain; temp];
 end
 
-eval(['Dtest = feat_nfold.fold', num2str(i), ';'])
-eval(['Rtest = response_nfold.fold', num2str(i), ';'])
+eval(['Dtest = feat_nfold.fold', num2str(iFold), ';'])
+eval(['Rtest = response_nfold.fold', num2str(iFold), ';'])
